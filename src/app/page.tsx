@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-red-500'>
       <h1 className='text-red-500'>Hello World</h1>
       
-      <Button>Click me</Button>
+      <Button>Click msade</Button>
       <Button asChild>
   <Link href="/login">Login</Link>
 </Button>
