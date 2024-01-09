@@ -52,7 +52,7 @@ export default function Home() {
 		},
 	  ];
 	return (
-		<div className="flex-1 p-10  h-screen  bg-green-400">
+		<div className="flex-1 p-10  h-[calc(100vh-57px)]  bg-green-400">
 			<div className="flex flex-wrap h-full justify-center content-center items-center">
 				<CompanyBox name={"Google"} logo={"https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"} 
 				position={[

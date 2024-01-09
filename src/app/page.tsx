@@ -31,5 +31,5 @@ import CompanyBox from "@/components/company/home/CompanyBox";
 import { redirect } from "next/navigation";
 
 export default function Home() {
-	return redirect("/home");
+	return redirect("/chooserole");
 }
